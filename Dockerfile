@@ -11,6 +11,8 @@ RUN rm -rf /usr/share/nginx/html/*
 
 # Copy the compiled Angular app into the Nginx web root directory
 COPY dist/* /usr/share/nginx/html/
+COPY nginx.key /etc/nginx/
+COPY assistrip.com.chained.crt /etc/nginx/
 
 # Expose port 80 for incoming HTTP traffic
 EXPOSE 80
