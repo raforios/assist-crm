@@ -9,6 +9,13 @@ npm-debug.log*
 # Data
 data
 
+nginx-certificate.crt
+nginx.key
+nginx
+nginx-file.pem
+assistrip.com.chained.crt
+nginx-bundle.crt
+
 # Runtime data
 pids
 *.pid
